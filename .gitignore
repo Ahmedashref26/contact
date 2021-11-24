@@ -1,0 +1,24 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/contacts-front/node_modules
+/contacts-server/node_modules
+
+
+# testing
+/contacts-front/coverage
+
+# production
+/contacts-front/build
+
+# misc
+/contacts-server/.DS_Store
+/contacts-front/.DS_Store
+/contacts-front/.env.local
+/contacts-front/.env.development.local
+/contacts-front/.env.test.local
+/contacts-front/.env.production.local
+
+/contacts-front/npm-debug.log*
+/contacts-front/yarn-debug.log*
+/contacts-front/yarn-error.log*
